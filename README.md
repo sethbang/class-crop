@@ -40,13 +40,13 @@ Please make sure that the selected input directory contains valid image files on
 ---
 ## Example
 
-###Input Folder
+#### Input Folder
 ![Input folder](examples/input_folder.png)
 
-###Output Folder
+#### Output Folder
 ![Output folder](examples/output_folder.png)
 
-####Some Contents
+#### Some Contents
 
 ![Cat folder](examples/cat_output_folder.png)
 
