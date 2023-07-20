@@ -46,7 +46,8 @@ Please make sure that the selected input directory contains valid image files on
 ###Output Folder
 ![Output folder](examples/output_folder.png)
 
-###Some Contents
+####Some Contents
+
 ![Cat folder](examples/cat_output_folder.png)
 
 ![Dog folder](examples/dog_output_folder.png)
