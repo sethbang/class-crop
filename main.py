@@ -54,6 +54,10 @@ def image_crops(input_directory, output_directory, confidence):
                 # Create a directory for the label if it does not exist
                 if not (os.path.exists(f"{output_directory}/{label_text}")):
                     os.mkdir(f"{output_directory}/{label_text}")
+                counts[label_text] = counts.get(label_text, 0) + 1
+                remote_region = im.crop(box)
+                remote_region.save(
+                    f"{output_directory}/{label_text}/{label_text}_{counts[label_text]}.jpg")
 
 
 def select_input_dir():

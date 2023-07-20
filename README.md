@@ -36,3 +36,19 @@ The script will print the label of each detected object, the confidence level of
 The model used in this script is DETR ResNet-50, which is pre-trained on the COCO dataset. This dataset includes 91 different object types, so the model can detect a wide range of common objects in images.
 
 Please make sure that the selected input directory contains valid image files only, as the script does not handle non-image files or corrupted image files.
+
+---
+## Example
+
+###Input Folder
+![Input folder](examples/input_folder.png)
+
+###Output Folder
+![Output folder](examples/output_folder.png)
+
+###Some Contents
+![Cat folder](examples/cat_output_folder.png)
+
+![Dog folder](examples/dog_output_folder.png)
+
+![Fork folder](examples/fork_output_folder.png)
